@@ -186,3 +186,7 @@ a:hover, a:focus, a:active {
     font-size: 7rem;
     padding-top: 10px;
 }
+
+#motto {
+    max-width: 75%;
+}
