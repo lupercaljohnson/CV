@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class DefaultController {
 
-    @GetMapping("*")
+    @GetMapping("/indexi")
     public String index(Model model) {
         model.addAttribute("message", "World!");
         return "index";
     }
     
-    @GetMapping("/cv")
+    @GetMapping("*")
     public String cv(Model model) {
         model.addAttribute("message", "World!");
         return "cv";
