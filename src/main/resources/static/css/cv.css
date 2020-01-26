@@ -85,6 +85,8 @@ p.lead {
   color: #DA7B93;
 }
 
+
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -175,4 +177,12 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+// Additional css by tpremes
+
+
+#surname {
+    font-size: 7rem;
+    padding-top: 10px;
 }
