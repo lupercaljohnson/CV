@@ -1,0 +1,22 @@
+package projekti;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class DefaultController {
+
+    @GetMapping("*")
+    public String index(Model model) {
+        model.addAttribute("message", "World!");
+        return "index";
+    }
+    
+    @GetMapping("/cv")
+    public String cv(Model model) {
+        model.addAttribute("message", "World!");
+        return "cv";
+    }
+    
+}

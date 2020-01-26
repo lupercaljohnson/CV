@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/layout :: head">
+        <meta charset="UTF-8" />
+        <title>Hello world</title>
+        
+        
+    </head>
+    <body>
+
+        <h1>Hello world  <i class="fab fa-accessible-icon"></i> </h1>
+       
+         <a th:href="@{/cv}" class="nav-link">CV</a>
+        
+        <div th:replace="fragments/layout :: scipt"></div>
+    </body>
+</html>
