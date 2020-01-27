@@ -188,5 +188,14 @@ a:hover, a:focus, a:active {
 }
 
 #motto {
-    max-width: 75%;
+    /*max-width: 75%;*/
+}
+
+.fab {
+    color: #2F4454;
+    transition: all 0.2s ease;
+}
+
+.social-icons a{
+    transition: all 0.2s ease;
 }
