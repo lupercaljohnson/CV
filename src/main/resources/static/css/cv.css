@@ -191,7 +191,13 @@ a:hover, a:focus, a:active {
     /*max-width: 75%;*/
 }
 
+
 .fab {
+    color: #2F4454;
+    transition: all 0.2s ease;
+}
+
+.fas {
     color: #2F4454;
     transition: all 0.2s ease;
 }
