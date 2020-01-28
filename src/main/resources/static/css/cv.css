@@ -171,10 +171,6 @@ section.resume-section .resume-item .resume-date {
   color: #DA7B93 !important;  /*changed by tpremes*/
 }
 
-a {
-  color: #DA7B93;  /*changed by tpremes*/
-}
-
 /*
 a:hover, a:focus, a:active {
   color: #824027; 
@@ -190,18 +186,20 @@ a:hover, a:focus, a:active {
 }
 
 #motto {
-    /*max-width: 75%;*/
+    
 }
 
 
-.fab {
+.fAicons {
     color: #2F4454;
     transition: all 0.2s ease;
 }
 
-.fas {
-    color: #2F4454;
-    transition: all 0.2s ease;
+
+
+
+#springie:hover, #springie:focus, #springie:active {
+  color: #DA7B93; 
 }
 
 #springie {
@@ -209,11 +207,10 @@ a:hover, a:focus, a:active {
     transition: all 0.2s ease;
 }
 
-#springie:hover, #springie:focus, #springie:active {
-  color: #DA7B93;  /*changed by tpremes*/
-}
-
-
 .social-icons a{
     transition: all 0.2s ease;
+}
+
+a {
+  color: #2F4454;  
 }
