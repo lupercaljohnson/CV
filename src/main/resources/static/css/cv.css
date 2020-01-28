@@ -202,6 +202,10 @@ a:hover, a:focus, a:active {
     transition: all 0.2s ease;
 }
 
+#springie {
+    color: #2F4454;
+    transition: all 0.2s ease;
+}
 .social-icons a{
     transition: all 0.2s ease;
 }
