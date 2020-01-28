@@ -175,9 +175,11 @@ a {
   color: #DA7B93;  /*changed by tpremes*/
 }
 
+/*
 a:hover, a:focus, a:active {
-  color: #824027;  /*changed by tpremes*/
+  color: #824027; 
 }
+*/
 
 /* Additional css by tpremes*/
 
@@ -197,15 +199,21 @@ a:hover, a:focus, a:active {
     transition: all 0.2s ease;
 }
 
-.fas {
+/*.fas {
     color: #2F4454;
     transition: all 0.2s ease;
-}
+}*/
 
 #springie {
     color: #2F4454;
     transition: all 0.2s ease;
 }
+
+#springie:hover, #springie:focus, #springie:active {
+  color: #DA7B93;  /*changed by tpremes*/
+}
+
+
 .social-icons a{
     transition: all 0.2s ease;
 }
